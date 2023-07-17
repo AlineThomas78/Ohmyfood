@@ -1,0 +1,90 @@
+// FUNCTIONNING //
+
+.functioning {
+    width: 90%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .functioning_title {
+    margin-top: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+    max-width: 340px;
+  }
+  
+  .functioning_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .functioning_step {
+    width: 335px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 25px;
+  }
+  
+  .functioning_number {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #9356dc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+  }
+  
+  .functioning_number_text {
+    width: 15px;
+    height: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .functioning_body {
+    width: 322px;
+    height: 72px;
+    border-radius: 20px;
+    background-color: #f6f6f6;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .functioning_img {
+    width: 13px;
+    height: 20px;
+  }
+  
+  .functioning_text {
+    width: 211px;
+    height: 15px;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }

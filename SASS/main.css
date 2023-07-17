@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0px;
   padding: 0px;
@@ -5,6 +6,10 @@
 
 .container {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
@@ -46,6 +51,7 @@
   justify-content: center;
   align-items: center;
   padding-left: 35px;
+  color: #353535;
 }
 
 .location_input {
@@ -57,6 +63,14 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .reservation {
@@ -107,35 +121,42 @@
   font-weight: 500;
   line-height: normal;
   border-radius: 25px;
-  background: linear-gradient(175deg, #9356dc 0%, #ff79da 100%);
+  background-image: linear-gradient(175deg, #9356dc 0%, #ff79da 100%);
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   color: #ffffff;
   border: none;
   margin-bottom: 40px;
+  cursor: pointer;
+  transition-duration: 0.25s;
+}
+
+.reservation_btn:hover {
+  background-image: linear-gradient(175deg, #b971f4 0%, #ff9ce0 100%); /* Couleur de fond éclaircie au survol */
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.5); /* Ombre portée plus visible */
 }
 
 .functioning {
-  width: 100%;
-  height: 440px;
+  width: 90%;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 .functioning_title {
   margin-top: 40px;
-  padding-left: 20px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  width: 90%;
+  width: 100%;
+  max-width: 340px;
 }
 
-.container_functioning {
+.functioning_list {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -180,7 +201,6 @@
   width: 322px;
   height: 72px;
   border-radius: 20px;
-  border-radius: 20px;
   background-color: #f6f6f6;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
   display: flex;
@@ -205,7 +225,8 @@
 }
 
 .restaurant {
-  width: 100%;
+  width: 90%;
+  padding: 20px;
   background-color: #f6f6f6;
   height: auto;
   display: flex;
@@ -214,13 +235,13 @@
 }
 
 .restaurant_title {
-  margin-top: 40px;
-  width: 90%;
+  margin-top: 20px;
+  width: 100%;
   color: #000;
   font-weight: 600;
   font-family: Roboto;
-  padding-left: 20px;
   margin-bottom: 20px;
+  max-width: 340px;
 }
 
 .restaurant_cardContainer {
@@ -238,6 +259,7 @@
   border-radius: 15px;
   background-color: #fff;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
 }
 
 .restaurant_img {
@@ -302,6 +324,14 @@
   font-style: normal;
   font-weight: 300;
   line-height: 24px;
+}
+
+.restaurant_heart i {
+  font-size: 22px;
+}
+
+.restaurant_heart:hover i {
+  background-image: linear-gradient(175deg, #9356dc 0%, #ff79da 100%); /* Cœur vide (0% de remplissage) */
 }
 
 .restaurant_text_bold {

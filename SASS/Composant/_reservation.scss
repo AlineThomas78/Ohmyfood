@@ -1,0 +1,67 @@
+// SECTION RESERVATION //
+
+.reservation {
+    width: 100%;
+    background-color: #f6f6f6;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .reservation_title {
+    width: 275px;
+    height: 68px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .reservation_text {
+    width: 315px;
+    height: 46px;
+    display: flex;
+    color: #353535;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+  
+  .reservation_btn {
+    width: 218px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 25px;
+    background-image: linear-gradient(175deg, #9356dc 0%, #ff79da 100%);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    border: none;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition-duration: 0.25s;
+  }
+  
+  .reservation_btn:hover {
+    background-image: linear-gradient(
+      175deg,
+      #b971f4 0%,
+      #ff9ce0 100%
+    ); /* Couleur de fond éclaircie au survol */
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.5); /* Ombre portée plus visible */
+  }
