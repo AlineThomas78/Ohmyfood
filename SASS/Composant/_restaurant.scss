@@ -1,0 +1,128 @@
+//  **********   RESTAURANT ***************//
+
+.restaurant {
+    width: 90%;
+    padding: 20px;
+    background-color: #f6f6f6;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .restaurant_title {
+    margin-top: 20px;
+    width: 100%;
+    color: #000;
+    font-weight: 600;
+    font-family: Roboto;
+    margin-bottom: 20px;
+    max-width: 340px;
+  }
+  
+  .restaurant_cardContainer {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 60px;
+  }
+  
+  .restaurant_card {
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+  }
+  
+  .restaurant_img {
+    width: 100%;
+    height: 180px;
+  }
+  
+  .restaurant_cardBadge {
+    width: 340px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .restaurant_badge {
+    width: 80px;
+    height: 30px;
+    border-radius: 2px;
+    background: var(--green, #99e2d0);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 15px 0px 0px;
+  }
+  
+  .restaurant_cardBadge p {
+    color: var(--green-font, #008766);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .restaurant_cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+  }
+  
+  .restaurant_containerText {
+    height: 70px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+  }
+  
+  .restaurant_text {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #000;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  
+  .restaurant_heart i {
+    font-size: 22px;
+  }
+  
+  .restaurant_heart:hover i {
+    background-image: linear-gradient(
+      175deg,
+      #9356dc 0%,
+      #ff79da 100%
+    ); /* Cœur vide (0% de remplissage) */
+  }
+  
+  .restaurant_text_bold {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #000;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  
