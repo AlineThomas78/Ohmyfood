@@ -3,35 +3,77 @@
 footer {
     width: 100%;
     background-color: #353535;
+    position: relative;
+    clear: both;
+    margin-bottom: 0;
+
+    @media screen and (min-width: 1440px) {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: end;
+      align-items: center;
+    }
   }
+  
   
   .footer_container {
     padding: 25px 25px;
+
+    @media screen and (min-width: 1440px) {
+      padding: 0;
+      margin: 0;
+      width: 90%;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      flex-direction: row-reverse;
+      height: 65px;
+    }
   }
   
   .footer_logo {
     width: 90%;
-    height: 27px;
     color: white;
-    font-family: Shrikhand;
+    font-family: 'Shrikhand';
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 20px;
     margin-top: 20px;
+
+    @media screen and (min-width: 1440px) {
+      width: 10%;
+      display: flex;
+      justify-content: center;
+      margin-right: 25px;
   }
-  
+}
   .footer_containerLink {
-    width: 90%;
+    width: 80%;
     margin-bottom: 20px;
+
+    @media screen and (min-width: 1440px) {
+      margin: 20px 50px 20px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: auto;
+      width: 55%;
+    }
   }
   
   .footer_link {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 16px;
     font-weight: 500;
     line-height: normal;
     color: #fff;
     text-decoration: none;
+
+    @media screen and (min-width: 1440px) {
+      display: flex;
+      justify-content: center;
+      
+    }
   }
   
   .link {

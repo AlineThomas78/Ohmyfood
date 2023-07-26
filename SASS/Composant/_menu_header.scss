@@ -1,0 +1,79 @@
+
+.menu {
+  background-color: #f6f6f6;
+  border-radius: 30px 30px 0px 0px;
+  margin-top: -4rem;
+  z-index: 1;
+  position: relative;
+
+  @media screen and (min-width: 1440px) {
+    max-width: 80%;
+  }
+
+  &_header {
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (min-width: 1440px) {
+     width: 25%;
+     padding: 4rem 0;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    }
+
+    &Title {
+      font-family: "Shrikhand";
+      margin-right: 15px;
+      @media screen and (min-width: 1440px) {
+       font-size: 28px;
+      }
+    }
+
+    &Btn {
+      background-color: transparent;
+      border: transparent 0px solid;
+      padding: 0;
+      cursor: pointer;
+      position: relative;
+      font-size: 20px;
+      .menu_heart {
+        display: flex;
+        gap: 5px;
+        cursor: pointer;
+
+        i {
+          font-size: 20px;
+          color: #101010;
+          transition: color 0.3s ease;
+
+          @media screen and (min-width: 1440px) {
+           font-size: 30px;
+          }
+
+          &.fas {
+            display: none;
+          }
+        }
+      }
+
+      &:hover {
+        .menu_heart {
+          i {
+            display: none;
+          }
+
+          .fas {
+          color: transparent;
+          background-image: linear-gradient(175deg,  #9356dc 0%, #ff79da 100%);
+          display: block; // Afficher le coeur rempli au survol
+          background-clip: text; 
+          }
+        }
+      }
+    }
+  }
+}
+

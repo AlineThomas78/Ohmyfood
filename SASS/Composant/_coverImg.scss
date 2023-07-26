@@ -1,0 +1,9 @@
+.coverImg {
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+
+    @media screen and (min-width: 1440px) {
+       height: 500px;
+      }
+}
