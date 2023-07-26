@@ -1,4 +1,4 @@
-.functioning {
+.functionning {
   width: 100%;
   background-color: #ffffff;
   display: flex;
@@ -11,39 +11,37 @@
     padding: 0;
     width: 100%;
   }
-}
 
-.functionning_container {
-  width: 90%;
-  padding: 1rem;
-  max-width: 1440px;
+  &_container {
+    width: 90%;
+    padding: 1rem;
+    max-width: 1440px;
 
-  @media screen and (min-width: 1440px) {
-    .functionning_container {
-      width: 85%;
-      padding: 1rem;
-      max-width: 1440px;
-    }  
+    @media screen and (min-width: 1440px) {
+      .functionning_container {
+        width: 85%;
+        padding: 1rem;
+        max-width: 1440px;
+      }
+    }
   }
-}
 
+  &_title {
+    margin-top: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+    max-width: 340px;
 
-
-.functioning_title {
-  margin-top: 40px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  width: 100%;
-  max-width: 340px;
-
-  @media screen and (min-width: 1440px) {
-    display: flex;
-    width: 84%;
-    margin: 1rem;
-    max-width: 84% !important;
-    margin: 2rem 0rem;
+    @media screen and (min-width: 1440px) {
+      display: flex;
+      width: 84%;
+      margin: 1rem;
+      max-width: 84% !important;
+      margin: 2rem 0rem;
+    }
   }
 }
 
@@ -57,7 +55,6 @@
   @media screen and (min-width: 1440px) {
     flex-direction: row; /* Passe en row en version desktop */
     justify-content: space-between;
-
   }
 }
 
