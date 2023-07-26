@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title >Ohmyfood</title>
+    <title>Ohmyfood</title>
     <link rel="stylesheet" href="./sass/main.css" />
     <link
       rel="stylesheet"
@@ -21,16 +21,11 @@
   </head>
   <body>
     <div class="container">
-      <div class="header">
-        <div class="header_title">
-          <div class="header_logo">
-            <img
-              class="header_logo"
-              src="./public/assets/images/logo/ohmyfood.png"
-              alt="logo"
-            />
-          </div>
+      <header class="home_header">
+        <div class="home_headerContainer">
+          <h1 class="home_title">ohmyfood</h1>
         </div>
+
         <div class="header_location">
           <i id="location_pin" class="fas fa-map-marker-alt"></i>
           <input
@@ -39,23 +34,25 @@
             value="Paris, Belleville"
           />
         </div>
-      </div>    
-        <section class="reservation">
-          <div class="reservation_title">
-            <h3>Réservez le menu qui vous convient</h3>
-          </div>
-          <div class="reservation_text">
-            Découvrez des restaurants d’exception, sélectionnés par nos soins.
-          </div>
-          <button type="btn" class="reservation_btn">
-            Explorez nos restaurants
-          </button>
-        </section>
-        <section class="functioning">
+      </header>
+
+      <section class="reservation">
+        <div class="reservation_title">
+          <h3>Réservez le menu qui vous convient</h3>
+        </div>
+        <div class="reservation_text">
+          Découvrez des restaurants d’exception, sélectionnés par nos soins.
+        </div>
+        <button type="btn" class="reservation_btn">
+          Explorez nos restaurants
+        </button>
+      </section>
+      <section class="functioning">
+        <div class="functionning_container">
           <div class="functioning_title">
             <h2>Fonctionnement</h2>
           </div>
-
+  
           <div class="functioning_list">
             <div class="functioning_step">
               <div class="functioning_number">
@@ -106,13 +103,16 @@
               </div>
             </div>
           </div>
-        </section>
-        <section class="restaurant">
+        </div>
+      </section>
+      
+      <section class="restaurant">
+        <div class="restaurantContainer">
           <div class="restaurant_title">
             <h2>Restaurants</h2>
           </div>
           <div class="restaurant_cardContainer">
-            <a class="restaurant_card" href="#">
+            <a class="restaurant_card" href="LaPaletteDuGout.html">
               <div class="restaurant_cardBadge">
                 <div class="restaurant_badge">
                   <p>Nouveau</p>
@@ -125,7 +125,7 @@
                   alt="img_plat"
                 />
               </div>
-
+  
               <div class="restaurant_containerText">
                 <div class="restaurant_text">
                   <p>
@@ -135,12 +135,13 @@
                 </div>
                 <div class="restaurant_Containerheart">
                   <div class="restaurant_heart">
-                    <i class="fa-regular fa-heart" style="color: #101010"></i>
+                    <i class="far fa-heart"  ></i>
+                    <i class="fas fa-heart" ></i>
                   </div>
                 </div>
               </div>
             </a>
-            <a class="restaurant_card" href="#">
+            <a class="restaurant_card" href="LaNoteEnchantee.html">
               <div class="restaurant_cardBadge">
                 <div class="restaurant_badge">
                   <p>Nouveau</p>
@@ -162,12 +163,13 @@
                 </div>
                 <div class="restaurant_Containerheart">
                   <div class="restaurant_heart">
-                    <i class="fa-regular fa-heart" style="color: #101010"></i>
+                    <i class="far fa-heart"  ></i>
+                    <i class="fas fa-heart" ></i>
                   </div>
                 </div>
               </div>
             </a>
-            <a class="restaurant_card" href="#">
+            <a class="restaurant_card" href="ALaFrançaise.html">
               <div class="restaurant_img">
                 <img
                   class="restaurant_cover"
@@ -184,12 +186,13 @@
                 </div>
                 <div class="restaurant_Containerheart">
                   <div class="restaurant_heart">
-                    <i class="fa-regular fa-heart" style="color: #101010"></i>
+                    <i class="far fa-heart"  ></i>
+                    <i class="fas fa-heart" ></i>
                   </div>
                 </div>
               </div>
             </a>
-            <a class="restaurant_card" href="#">
+            <a class="restaurant_card" href="LeDeliceDesSens.html">
               <div class="restaurant_img">
                 <img
                   class="restaurant_cover"
@@ -206,13 +209,16 @@
                 </div>
                 <div class="restaurant_Containerheart">
                   <div class="restaurant_heart">
-                    <i class="fa-regular fa-heart" style="color: #101010"></i>
+                    <i class="far fa-heart"  ></i>
+                    <i class="fas fa-heart" ></i>
                   </div>
                 </div>
               </div>
             </a>
           </div>
-        </section>     
+        </div>
+        
+      </section>
       <footer>
         <div class="footer_container">
           <div class="footer_logo">

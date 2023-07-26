@@ -428,8 +428,7 @@ body, html {
 .restaurant .restaurant_card .restaurant_cover {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 15px 15px 0px 0px;
 }
 .restaurant .restaurant_card .restaurant_containerText {
@@ -488,8 +487,7 @@ body, html {
   color: transparent;
   background-image: linear-gradient(175deg, #9356dc 0%, #ff79da 100%);
   display: block;
-  -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
 }
 
 footer {
@@ -584,8 +582,7 @@ footer a {
 .coverImg {
   width: 100%;
   height: 275px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 @media screen and (min-width: 1440px) {
   .coverImg {
@@ -662,8 +659,7 @@ footer a {
   color: transparent;
   background-image: linear-gradient(175deg, #9356dc 0%, #ff79da 100%);
   display: block;
-  -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
 }
 
 .menuItem {
@@ -830,4 +826,6 @@ footer a {
   100% {
     transform: scale(1);
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

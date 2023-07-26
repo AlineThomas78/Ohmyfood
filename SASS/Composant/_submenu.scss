@@ -1,0 +1,60 @@
+.subMenu {
+ 
+  display: grid;
+
+  @media screen and (min-width: 1440px) {
+    width: 70%;
+  }
+
+  &_section {
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 1rem;
+
+    @media screen and (min-width: 1440px) {
+      padding: 0 2rem 2rem 2rem;
+    }
+  }
+
+  &_title {
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 0.5rem;
+    font-weight: 400;
+    color: #000;
+    font-weight: 400;
+
+    &:after {
+      content: "";
+      width: 3rem;
+      height: 0.25rem;
+      background-color: #99e2d0;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+  }
+}
+
+.submenu {
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0 1rem;
+  
+
+  &_title {
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 0.5rem;
+    font-weight: normal;
+
+    &::after {
+      content: "";
+      width: 3rem;
+      height: 0.25rem;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+  }
+}
