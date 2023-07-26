@@ -83,7 +83,7 @@
 
   @for $i from 0 to 9 {
     &.item-#{$i} {
-      animation: itemAppear 0.6s ($i * 0.1s) forwards; // Délai de 0.1s, 0.2s, 0.3s, ... pour chaque élément
+      animation: itemAppear 0.6s ($i * 0.2s) forwards; // Délai de 0.1s, 0.2s, 0.3s, ... pour chaque élément
     }
   }
 }
