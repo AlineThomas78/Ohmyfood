@@ -222,7 +222,7 @@ html {
   }
 }
 .functionning_container {
-  width: 90%;
+  width: 85%;
   padding: 1rem;
   max-width: 1440px;
 }
@@ -235,18 +235,16 @@ html {
 }
 .functionning_title {
   margin-top: 40px;
-  font-family: Roboto;
-  font-style: normal;
+  font-family: "Roboto";
   font-weight: 700;
-  line-height: normal;
   width: 100%;
   max-width: 340px;
+  margin: 2rem 0;
 }
 @media screen and (min-width: 1440px) {
   .functionning_title {
     display: flex;
     width: 84%;
-    margin: 1rem;
     max-width: 84% !important;
     margin: 2rem 0rem;
   }
@@ -353,12 +351,11 @@ html {
   }
 }
 .restaurant .restaurant_title {
-  margin-top: 20px;
+  margin: 2rem 0;
   width: 90%;
   color: #000;
   font-weight: 600;
   font-family: Roboto;
-  margin-bottom: 20px;
 }
 .restaurant .restaurant_cardContainer {
   width: 100%;

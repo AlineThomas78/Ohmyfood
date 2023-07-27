@@ -13,7 +13,7 @@
   }
 
   &_container {
-    width: 90%;
+    width: 85%;
     padding: 1rem;
     max-width: 1440px;
 
@@ -28,19 +28,18 @@
 
   &_title {
     margin-top: 40px;
-    font-family: Roboto;
-    font-style: normal;
+    font-family: 'Roboto';
     font-weight: 700;
-    line-height: normal;
     width: 100%;
     max-width: 340px;
+    margin: 2rem 0;
 
     @media screen and (min-width: 1440px) {
       display: flex;
       width: 84%;
-      margin: 1rem;
       max-width: 84% !important;
       margin: 2rem 0rem;
+      
     }
   }
 }
