@@ -1,4 +1,4 @@
-@import "../sass/Base/base";
+@import "../sas/Base/base";
 @import "../sass/Composant/header";
 @import "../sass/Composant/reservation";
 @import "../sass/Composant/functioning";
@@ -8,6 +8,6 @@
 @import "../sass/Composant/menu_header";
 @import "../sass/Composant/menu_item";
 @import "../sass/Composant/submenu";
-@import "../sass/Composant/loader";
-@import "../sass/Layaout/animation";
+@import "./Composant/loader";
+@import "./Layaout/animation";
 
