@@ -69,6 +69,11 @@ html {
   align-items: center;
   position: relative;
 }
+@media screen and (min-width: 1440px) {
+  .home_headerContainer {
+    height: 96px;
+  }
+}
 
 .home_title {
   font-size: 30px;

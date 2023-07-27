@@ -18,6 +18,10 @@
   justify-content: center;
   align-items: center;
   position: relative;
+
+  @media screen and (min-width: 1440px) {
+    height: 96px;
+  }
 }
 
 
