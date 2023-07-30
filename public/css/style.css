@@ -69,6 +69,11 @@ html {
   align-items: center;
   position: relative;
 }
+@media screen and (min-width: 1440px) {
+  .home_headerContainer {
+    height: 96px;
+  }
+}
 
 .home_title {
   font-size: 30px;
@@ -603,7 +608,7 @@ footer a {
 }
 @media screen and (min-width: 1440px) {
   .menu_header {
-    width: 25%;
+    width: 30%;
     padding: 4rem 0;
     display: flex;
     justify-content: space-between;
