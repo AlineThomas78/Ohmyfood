@@ -292,7 +292,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: relative;
+  right: -10px;
 }
 
 .functioning_number_text {

@@ -79,7 +79,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: relative;
+  left:-20px;
+ 
 }
 
 .functioning_number_text {
@@ -92,6 +94,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  left: -12px;
 }
 
 .functioning_body {
