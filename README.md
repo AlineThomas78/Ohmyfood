@@ -1,11 +1,20 @@
 # OhMyFood
 
+### GitHub.io 
+
+https://alinethomas78.github.io/Ohmyfood/
+
+### GitHub :
+
+https://github.com/AlineThomas78/Ohmyfood
+
+
 ## Installation : 
 
     npm init
     npm install 
 
-### Installation Sass :
+#### Installation Sass :
 
 2 méthodes existe : 
 
